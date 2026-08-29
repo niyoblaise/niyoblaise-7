@@ -119,7 +119,7 @@ export const About = () => {
                 target="_blank"
                 rel="noopener noreferrer"
               >
-                Download CV 📄
+                Download CV
               </a>
             </div>
             <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
@@ -171,16 +171,16 @@ export const About = () => {
 
           <div className="grid grid-cols-1 gap-6 mt-8">
             <div className="p-6 rounded-xl border border-white/10 hover:translate-y-1 transition-all">
-              <h3 className="text-xl font-bold mb-4">🎓 Education</h3>
+              <h3 className="text-xl font-bold mb-4"> Education</h3>
 
               <ul className="list-disc list-inside text-gray-300 space-y-2">
                 <li>
-                  <strong>🎓 Bachelor&apos;s in Software Engineering</strong> -
+                  <strong> Bachelor&apos;s in Software Engineering</strong> -
                   Adventist University of Central Africa (2022-Present)
                 </li>
 
                 <li>
-                  <strong>📜 Certificate in Computing Technology</strong> -
+                  <strong> Certificate in Computing Technology</strong> -
                   African College of Commerce and Technology (2018-2019)
                 </li>
               </ul>
