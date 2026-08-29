@@ -46,7 +46,7 @@ export const Projects = () => {
 
             <div className="p-6 rounded-xl border border-white/10 hover:-translate-y-1 hover:border-blue-500/30 hover:shadow-[0_2px_8px_rgba(59,130,246,0.2)] transition">
               <h3 className="text-xl font-bold mb-2">
-                🤖 ChatBot – AI-powered Conversation
+                ChatBot – AI-powered Conversation
               </h3>
               <p className="text-gray-400 mb-4">
                 ChatBot is a simple AI assistant powered by OpenAI, built to
@@ -77,7 +77,7 @@ export const Projects = () => {
             </div>
 
             <div className="p-6 rounded-xl border border-white/10 hover:-translate-y-1 hover:border-blue-500/30 hover:shadow-[0_2px_8px_rgba(59,130,246,0.2)] transition">
-              <h3 className="text-xl font-bold mb-2">Blog App ✍️</h3>
+              <h3 className="text-xl font-bold mb-2">Blog App </h3>
               <p className="text-gray-400 mb-4">
                 This is a web app that is used as way of communication mainly
                 using the popular blogging methodology.
@@ -377,7 +377,7 @@ export const Projects = () => {
 
             <div className="p-6 rounded-xl border border-white/10 hover:-translate-y-1 hover:border-blue-500/30 hover:shadow-[0_2px_8px_rgba(59,130,246,0.2)] transition">
               <h3 className="text-xl font-bold mb-2">
-                Election Management system 📥
+                Election Management system
               </h3>
               <p className="text-gray-400 mb-4">
                 A desktop-based application built with Java Swing, designed to
@@ -413,7 +413,7 @@ export const Projects = () => {
               target="_blank"
               rel="noopener noreferrer"
             >
-              🐙 Visit my GitHub
+              Visit my GitHub
             </a>
           </div>
         </div>
