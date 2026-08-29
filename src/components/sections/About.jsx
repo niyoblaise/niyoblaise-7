@@ -18,6 +18,16 @@ export const About = () => {
     "Bootstrap",
     "Framer Motion",
   ];
+  const mobileSkills = [
+  "React Native",
+  "Expo",
+  "TypeScript",
+  "Firebase",
+  "REST APIs",
+  "Push Notifications",
+  "QR / Barcode Scanning",
+  "Offline-First",
+];
 
   const backendSkills = [
     "Java",
