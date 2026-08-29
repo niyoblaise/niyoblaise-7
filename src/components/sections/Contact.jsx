@@ -1,6 +1,6 @@
 import { useState } from "react";
 import { RevealOnScroll } from "../RevealOnScroll";
-import emailjs from "emailjs-com";
+import emailjs from "@emailjs/browser";
 
 export const Contact = () => {
   const [formData, setFormData] = useState({
@@ -13,19 +13,20 @@ export const Contact = () => {
     e.preventDefault();
 
     emailjs
-      .sendForm(
+      .send(
         import.meta.env.VITE_SERVICE_ID,
         import.meta.env.VITE_TEMPLATE_ID,
-        e.target,
+        formData,
         import.meta.env.VITE_PUBLIC_KEY,
       )
-      .then((result) => {
-        alert(
-          "Message sent successfully, I will get back to you soon. Thank you for reaching out!",
-        );
+      .then(() => {
+        alert("Message sent successfully!");
         setFormData({ name: "", email: "", message: "" });
       })
-      .catch(() => alert("Failed to send message . Try Again"));
+      .catch((error) => {
+        console.error("EmailJS Error:", error);
+        alert("Failed to send message. Try Again");
+      });
   };
 
   return (
