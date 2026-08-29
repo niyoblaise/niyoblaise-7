@@ -63,6 +63,8 @@ export const About = () => {
     "VPS Deployment",
     "Vercel",
     "Render",
+    "Caddy",
+    "Portainer",
   ];
 
   const generalSkills = [
