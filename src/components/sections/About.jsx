@@ -218,7 +218,7 @@ export const About = () => {
           <div className="grid grid-cols-1 md:grid-cols-1 gap-6 mt-8">
             <div className="p-6 rounded-xl border-white/10 border hover:translate-y-1 transition-all">
               <h3 className="text-xl font-bold mb-4">🎓 Education</h3>
-              <ul list-disc list-inside text-gray-300 space-y-2>
+              <ul className="list-disc list-inside text-gray-300 space-y-2">
                 <li>
                   <strong>🎓 Bachelors in Software Engineering</strong> -
                   Adventist University of Central Africa (2022-Present)
