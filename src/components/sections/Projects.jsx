@@ -257,7 +257,7 @@ export const Projects = () => {
                 and discover skilled talent.
               </p>
               <div className="flex flex-wrap gap-2 mb-4">
-                {["React", "Spring Boot", "Tailwind CSS"].map((tech, key) => (
+                {["React", "Dot Net", "C#", "Tailwind CSS"].map((tech, key) => (
                   <span
                     key={key}
                     className="bg-blue-500/10 text-blue-500 ml-1 px-3 py-1 rounded-full text-sm hover:bg-blue-500/20 hover:shadow-[0_2px_8px_rgba(59,130,246,0.2)] transition-all"
