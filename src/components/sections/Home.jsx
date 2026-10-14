@@ -18,12 +18,12 @@ export const Home = () => {
                 <img
                   src="/profile.jpg"
                   alt="Blaise Niyonshuti - Frontend Engineer"
-                  className="w-full h-full object-cover object-[center_5%] transition-transform duration-500 
+                  className="w-full h-full object-cover object-[center_25%] transition-transform duration-500
                             group-hover:scale-110"
                 />
 
                 <div
-                  className="absolute inset-0 bg-gradient-to-br from-blue-500/10 to-purple-600/10 
+                  className="absolute inset-0 bg-gradient-to-br from-blue-500/10 to-purple-600/10
                         opacity-0 group-hover:opacity-100 transition-opacity duration-500"
                 ></div>
               </div>
@@ -32,7 +32,7 @@ export const Home = () => {
             <div className="flex-1 max-w-2xl">
               <h1
                 className="text-5xl md:text-7xl font-bold mb-6 bg-gradient-to-r from-blue-500
-                    to-purple-600 bg-clip-text text-transparent leading-tight"
+                    to-blue-400 bg-clip-text text-transparent leading-tight"
               >
                 Sup.. , I'm Blaise
               </h1>
@@ -55,7 +55,7 @@ export const Home = () => {
                 >
                   <span className="relative z-10">view projects</span>
                   <div
-                    className="absolute inset-0 bg-gradient-to-r from-blue-600 to-purple-600 
+                    className="absolute inset-0 bg-gradient-to-r from-blue-600 to-blue-800
                     transform scale-x-0 group-hover:scale-x-100 transition-transform duration-300 origin-left"
                   ></div>
                 </a>
