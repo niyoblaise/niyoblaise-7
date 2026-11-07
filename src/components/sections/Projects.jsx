@@ -34,6 +34,7 @@ const projects = [
       },
     ],
   },
+
   {
     title: "E-commerce Demo",
     description:
