@@ -4,14 +4,14 @@ export const Home = () => {
   return (
     <section
       id="home"
-      className="min-h-screen flex items-center justify-center relative"
+      className="min-h-screen flex items-center justify-center relative pt-24 pb-16 sm:py-24 scroll-mt-16"
     >
       <RevealOnScroll>
-        <div className="text-center z-10 px-4 max-w-6xl mx-auto">
-          <div className="flex flex-col lg:flex-row items-center justify-center gap-12 mb-8">
-            <div className="relative group">
+        <div className="text-center z-10 px-4 sm:px-6 max-w-6xl mx-auto">
+          <div className="flex flex-col lg:flex-row items-center justify-center gap-8 sm:gap-12 mb-8">
+            <div className="relative group shrink-0">
               <div
-                className="relative w-64 h-64 lg:w-80 lg:h-80 rounded-full overflow-hidden 
+                className="relative w-48 h-48 sm:w-64 sm:h-64 lg:w-80 lg:h-80 rounded-full overflow-hidden 
                     shadow-2xl shadow-blue-500/20 border-4 border-blue-500/30 
                     transition-all duration-500 hover:shadow-blue-500/40 hover:scale-105"
               >
@@ -29,28 +29,28 @@ export const Home = () => {
               </div>
             </div>
 
-            <div className="flex-1 max-w-2xl">
+            <div className="flex-1 max-w-2xl text-center lg:text-left">
               <h1
-                className="text-5xl md:text-7xl font-bold mb-6 bg-gradient-to-r from-blue-500
+                className="text-3xl sm:text-5xl md:text-6xl lg:text-7xl font-bold mb-4 sm:mb-6 bg-gradient-to-r from-blue-500
                     to-blue-400 bg-clip-text text-transparent leading-tight"
               >
-                Sup.. , I'm Blaise
+                Sup.. , I&apos;m Blaise
               </h1>
 
-              <p className="text-gray-400 text-lg mb-8 max-w-lg mx-auto lg:mx-0 text-left">
+              <p className="text-gray-400 text-base sm:text-lg mb-8 max-w-lg mx-auto lg:mx-0 leading-relaxed">
                 Full-Stack Software Engineer | Building modern, scalable, and
                 user-friendly Web and Mobile applications.
-                <br />
+                <br className="hidden sm:inline" />{" "}
                 Based in Kigali, Rwanda.
-                <br />
+                <br className="hidden sm:inline" />{" "}
                 Turning ideas into reliable digital products with clean and
                 maintainable code.
               </p>
 
-              <div className="flex flex-col sm:flex-row justify-center space-y-4 sm:space-y-0 sm:space-x-4">
+              <div className="flex flex-col sm:flex-row items-center justify-center lg:justify-start gap-4 w-full sm:w-auto">
                 <a
                   href="#projects"
-                  className="bg-blue-500 text-white py-3 px-6 rounded-2xl font-medium transition relative overflow-hidden
+                  className="w-full sm:w-auto text-center bg-blue-500 text-white py-3 px-8 rounded-2xl font-medium transition relative overflow-hidden
                 hover:translate-y-0.5 hover:shadow-[0_0_15px_rgba(59,130,246,0.4)] group"
                 >
                   <span className="relative z-10">view projects</span>
@@ -62,7 +62,7 @@ export const Home = () => {
 
                 <a
                   href="#contact"
-                  className="border border-blue-500/50 text-blue-500 py-3 px-6 rounded-2xl font-medium
+                  className="w-full sm:w-auto text-center border border-blue-500/50 text-blue-400 py-3 px-8 rounded-2xl font-medium
                 transition-all duration-200 hover:translate-y-0.5 hover:shadow-[0_0_15px_rgba(59,130,246,0.4)]
                 hover:bg-blue-500/10 group"
                 >
