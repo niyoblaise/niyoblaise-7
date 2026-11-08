@@ -43,7 +43,7 @@ const projects = [
     links: [
       {
         label: "View Project ➡️",
-        url: "https://ecommerce-frontnend-d9my7v7kf-niyoblaise7-gmailcoms-projects.vercel.app/",
+        url: "https://ecommerce-frontnend-d9my7v7kf-niyoblaise7-gmailcoms-projects.vercel.app?_vercel_share=aozDceSXS5Zv15TOz7V26YM10sq0tTnB",
       },
     ],
   },
