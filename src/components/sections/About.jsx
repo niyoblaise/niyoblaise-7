@@ -15,6 +15,8 @@ export const About = () => {
     "Material UI",
     "Bootstrap",
     "Framer Motion",
+      "React-Hook form",
+
   ];
 
   const mobileSkills = [
