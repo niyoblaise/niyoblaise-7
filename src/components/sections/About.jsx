@@ -16,7 +16,7 @@ export const About = () => {
     "Bootstrap",
     "Framer Motion",
       "React-Hook form",
-
+    "Tanstack query",
   ];
 
   const mobileSkills = [
