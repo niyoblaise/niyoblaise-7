@@ -37,6 +37,7 @@ export const About = () => {
     "Python",
     "FastAPI",
     "Flask",
+      "Express",
     "REST APIs",
     "JWT",
     "RBAC",
