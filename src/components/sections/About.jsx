@@ -84,6 +84,7 @@ export const About = () => {
     "Agile Development",
   ];
 
+
   const renderSkills = (skills) =>
     skills.map((skill, index) => (
       <span
