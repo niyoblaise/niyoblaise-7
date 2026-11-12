@@ -55,7 +55,7 @@ const projects = [
     links: [
       {
         label: "View Project ➡️",
-        url: "",
+        url: "https://rura-regulatory-tracking-platform.vercel.app/",
       },
     ],
   },
