@@ -48,7 +48,7 @@ const projects = [
     ],
   },
   {
-    title: " ",
+    title: "RURA Regulatory Tracking Platform ",
     description:
         "",
     tech: ["React", "Spring-boot", "Tailwind CSS","spring-security","oAuth 2"],
