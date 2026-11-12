@@ -48,6 +48,18 @@ const projects = [
     ],
   },
   {
+    title: " ",
+    description:
+        "",
+    tech: ["React", "Spring-boot", "Tailwind CSS","spring-security","oAuth 2"],
+    links: [
+      {
+        label: "View Project ➡️",
+        url: "",
+      },
+    ],
+  },
+  {
     title: "Pokedex",
     description:
       "A Pokemon cards reveal for the different animals on pokemon show casing their strength and so on",
