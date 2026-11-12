@@ -50,7 +50,7 @@ const projects = [
   {
     title: "RURA Regulatory Tracking Platform ",
     description:
-        "",
+        "This is a project that helps RURA and business in regulatory compliance by removing manual work. In this system everything is automated wih a slight touch of human feel but most of the work is done by AI",
     tech: ["React", "Spring-boot", "Tailwind CSS","spring-security","oAuth 2"],
     links: [
       {
