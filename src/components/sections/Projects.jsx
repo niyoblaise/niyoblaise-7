@@ -68,7 +68,6 @@ const projects = [
       { label: "View Project ➡️", url: "https://github.com/niyoblaise/Pokedex" },
     ],
   },
-
   {
     title: "SPTTS (Smart Public Transport Tracking System)",
     description:
