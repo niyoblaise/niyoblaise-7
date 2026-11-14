@@ -10,6 +10,7 @@ const projects = [
       { label: "View Live Project ➡️", url: "https://taskomi.africa/login" },
     ],
   },
+    
   {
     title: "ChatBot – AI-powered Conversation",
     description:
