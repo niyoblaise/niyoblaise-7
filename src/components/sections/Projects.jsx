@@ -217,7 +217,6 @@ export const Projects = () => {
                     ))}
                   </div>
                 </div>
-
                 <div className="flex flex-wrap items-center justify-between gap-3 pt-3 border-t border-white/5">
                   {project.links.map((link, lIndex) => (
                     <a
