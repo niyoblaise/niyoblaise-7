@@ -16,7 +16,7 @@ export const Navbar = ({ menuOpen, setMenuOpen }) => {
             Niyo <span className="text-blue-400">Blaise</span>
           </a>
 
-          {/* mobile menu toggle button */}
+
           <button
             type="button"
             onClick={() => setMenuOpen((prev) => !prev)}
