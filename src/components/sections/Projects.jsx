@@ -233,7 +233,6 @@ export const Projects = () => {
               </div>
             ))}
           </div>
-
           <div className="flex justify-center mt-8 sm:mt-10">
             <a
               href="https://github.com/niyoblaise"
