@@ -30,7 +30,7 @@ export const Navbar = ({ menuOpen, setMenuOpen }) => {
             )}
           </button>
 
-          {/* desktop menu */}
+
           <div className="hidden md:flex items-center space-x-8">
             <a
               href="#home"
