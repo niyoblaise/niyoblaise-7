@@ -7,6 +7,7 @@ export const MobileMenu = ({ menuOpen, setMenuOpen }) => {
         setMenuOpen(false);
       }
     };
+
     window.addEventListener("keydown", handleKeyDown);
     return () => window.removeEventListener("keydown", handleKeyDown);
   }, [menuOpen, setMenuOpen]);
