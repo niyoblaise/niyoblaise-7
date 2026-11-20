@@ -54,6 +54,7 @@ export const MobileMenu = ({ menuOpen, setMenuOpen }) => {
             {link.label}
           </a>
         ))}
+
         <div
           className={`pt-4 transform transition-all duration-300 ${
             menuOpen
