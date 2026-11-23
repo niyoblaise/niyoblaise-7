@@ -5,18 +5,7 @@ const projects = [
     title: "Self-Hosted Home Server & Cloud Infrastructure",
     description:
         "Architected and deployed a containerized media streaming and file-sharing server (Jellyfin, FileBrowser, Caddy) on Ubuntu Server using Docker Compose and Tailscale Funnel for zero-trust public HTTPS access without router port forwarding",
-    tech: [
-      "Ubuntu Server",
-      "Docker",
-      "Docker Compose",
-      "Tailscale",
-      "Tailscale Funnel",
-      "Jellyfin",
-      "FileBrowser",
-      "Caddy",
-      "Netplan",
-      "systemd"
-    ],
+    tech: ["Ubuntu Server", "Docker", "Docker Compose", "Tailscale","Tailscale Funnel", "Jellyfin", "FileBrowser", "Caddy", "Netplan", "systemd"],
     links: [
       { label: "View Live Project ➡️", url: "https://taskomi.africa/login" },
     ],
