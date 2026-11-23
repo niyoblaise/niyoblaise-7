@@ -13,7 +13,7 @@ const projects = [
   },{
     title: "Taskomi",
     description:
-      "Taskomi is a modern job marketplace that connects clients with skilled workers, making it easy to post, find, and manage jobs online.",
+        "Taskomi is an on-demand service marketplace connecting clients in Kigali with vetted home-service professionals, featuring real-time WebSocket updates, booking workflows, and integrated Centrika XentriPay mobile payments.",
     tech: ["React", "Spring Boot", "Redis", "Tailwind CSS"],
     links: [
       { label: "View Live Project ➡️", url: "https://taskomi.africa/login" },
