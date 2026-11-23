@@ -4,7 +4,7 @@ const projects = [
   {
     title: "Self-Hosted Home Server & Cloud Infrastructure",
     description:
-        "Taskomi is a modern job marketplace that connects clients with skilled workers, making it easy to post, find, and manage jobs online.",
+        "Architected and deployed a containerized media streaming and file-sharing server (Jellyfin, FileBrowser, Caddy) on Ubuntu Server using Docker Compose and Tailscale Funnel for zero-trust public HTTPS access without router port forwarding",
     tech: ["React", "Spring Boot", "Redis", "Tailwind CSS"],
     links: [
       { label: "View Live Project ➡️", url: "https://taskomi.africa/login" },
