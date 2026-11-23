@@ -7,7 +7,8 @@ const projects = [
         "Architected and deployed a containerized media streaming and file-sharing server (Jellyfin, FileBrowser, Caddy) on Ubuntu Server using Docker Compose and Tailscale Funnel for zero-trust public HTTPS access without router port forwarding",
     tech: ["Ubuntu Server", "Docker", "Docker Compose", "Tailscale","Tailscale Funnel", "Jellyfin", "FileBrowser", "Caddy", "Netplan", "systemd"],
     links: [
-      { label: "View Live Project ➡️", url: "https://taskomi.africa/login" },
+      { label: "Watch Movies  ➡️", url: "https://blaise.tail830910.ts.net/blaisemovies" },
+      { label: "Access Cloud Files ➡️", url: "https://blaise.tail830910.ts.net/filesa/" }
     ],
   },{
     title: "Taskomi",
