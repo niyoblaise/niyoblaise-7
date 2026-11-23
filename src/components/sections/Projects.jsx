@@ -2,7 +2,7 @@ import { RevealOnScroll } from "../RevealOnScroll";
 
 const projects = [
   {
-    title: "Taskomi",
+    title: "Self-Hosted Home Server & Cloud Infrastructure",
     description:
         "Taskomi is a modern job marketplace that connects clients with skilled workers, making it easy to post, find, and manage jobs online.",
     tech: ["React", "Spring Boot", "Redis", "Tailwind CSS"],
