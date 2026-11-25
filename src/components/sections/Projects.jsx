@@ -40,7 +40,7 @@ const projects = [
     links: [
       {
         label: "View Project ➡️",
-        url: "https://front-end-vert-nine-45.vercel.app/",
+        url: "https://github.com/niyoblaise/blog-app-backend",
       },
     ],
   },
