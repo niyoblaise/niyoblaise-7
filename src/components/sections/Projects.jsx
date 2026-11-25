@@ -56,7 +56,7 @@ const projects = [
       },
     ],
   },
-    
+
   {
     title: "RURA Regulatory Tracking Platform ",
     description:
@@ -69,6 +69,7 @@ const projects = [
       },
     ],
   },
+    
   {
     title: "Pokedex",
     description:
