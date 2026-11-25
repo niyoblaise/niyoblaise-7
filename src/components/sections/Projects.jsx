@@ -69,9 +69,9 @@ const projects = [
       },
     ],
   },
-    
+
   {
-    title: "Pokedex",
+    title: "Pokedex App",
     description:
       "A Pokemon cards reveal for the different animals on pokemon show casing their strength and so on",
     tech: ["React-Native", "REST-APIS", "Native wind"],
