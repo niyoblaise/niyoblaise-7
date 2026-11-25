@@ -56,6 +56,7 @@ const projects = [
       },
     ],
   },
+    
   {
     title: "RURA Regulatory Tracking Platform ",
     description:
